@@ -20,6 +20,6 @@ public static int Arg1;
 
         System.out.println("Hexadecimal representation is: " + hexadecimal);
 	System.out.println("Thank you for using this converter");
-	System.out,println("Update 2 SonarQubeTest")
+	System.out,println("Update 2 SonarQubeTest");
     }
 }
