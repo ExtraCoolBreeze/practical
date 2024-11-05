@@ -1,3 +1,4 @@
+import java.util.logging.logger;
 public class Dec2Hex
 {
 	private static int arg1;
@@ -11,7 +12,7 @@ public class Dec2Hex
         	}
         	try
 		{
-	  		Arg1 = Integer.parseInt(args[0]);
+	  		setArg1(Integer.parseInt(args[0]));
         	}
 		catch (NumberFormatException e)
 		{
@@ -19,7 +20,7 @@ public class Dec2Hex
 	    		return;
 		}
 
-		char ch[] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'};
+		char[] ch = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'};
         	int rem;
 		int num;
         	num = getArg1();
@@ -40,6 +41,6 @@ public class Dec2Hex
     	}
     	public static void setArg1(int inputValue) 
 	{
-        	arg1 = value;
+        	arg1 = inputValue;
     	}
 }
