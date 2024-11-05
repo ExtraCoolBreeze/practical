@@ -1,6 +1,7 @@
 import java.util.logging.Logger;
+public class Dec2Hex{
 	private static int arg1;
-	StringBuilder hexadecimal = new String Builder();
+	StringBuilder hexadecimal = new StringBuilder();
     	public static void main(String[] args)
 	{
         	if (args.length == 0)
