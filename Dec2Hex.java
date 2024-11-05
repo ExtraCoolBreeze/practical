@@ -2,6 +2,7 @@ import java.util.logging.Logger;
 public class Dec2Hex{
 	private static int arg1;
 	private static final Logger logger = Logger.getLogger(Dec2Hex.class.getName());
+
     	public static void main(String[] args)
 	{
         	if (args.length == 0)
