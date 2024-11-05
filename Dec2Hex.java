@@ -1,8 +1,6 @@
-import java.util.logging.logger;
-public class Dec2Hex
-{
+import java.util.logging.Logger;
 	private static int arg1;
-
+	StringBuilder hexadecimal = new String Builder();
     	public static void main(String[] args)
 	{
         	if (args.length == 0)
@@ -24,12 +22,11 @@ public class Dec2Hex
         	int rem;
 		int num;
         	num = getArg1();
-        	String hexadecimal = "";
         	System.out.println("Converting the Decimal Value " + num + " to Hex...");
 		while (num != 0)
 		{
             		rem = num%16;
-            		hexadecimal = ch[rem] + hexadecimal;
+            		hexadecimal.insert(0, ch[rem]);
             		num = num/16;
         	}
 		System.out.println("Hexadecimal representation is: " + hexadecimal);
