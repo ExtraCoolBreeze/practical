@@ -43,4 +43,5 @@ public class Dec2Hex{
 	{
         	arg1 = inputValue;
     	}
+	
 }
