@@ -1,4 +1,3 @@
-package classes;
 import java.util.logging.Logger;
 public class Dec2Hex{
 	private static int arg1;
