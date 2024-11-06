@@ -1,5 +1,6 @@
 import java.util.logging.Logger;
 public class Dec2Hex{
+
 	private static int arg1;
     	public static void main(String[] args)
 	{
@@ -33,11 +34,11 @@ public class Dec2Hex{
 		System.out.println("Hexadecimal representation is: " + hexadecimal);
 	}
 
-	public static int getArg1() 
+	public static int getArg1()
 	{
         	return arg1;
     	}
-    	public static void setArg1(int inputValue) 
+    	public static void setArg1(int inputValue)
 	{
         	arg1 = inputValue;
     	}
